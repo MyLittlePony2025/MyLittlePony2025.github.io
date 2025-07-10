@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#ff5722">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="《小马宝莉》系列合集">
+    <meta name="application-name" content="《小马宝莉》系列合集">
+    <meta name="msapplication-TileColor" content="#ff5722">
+    <meta name="msapplication-TileImage" content="./favicon.ico">
+    <meta name="msapplication-config" content="./browserconfig.xml">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="《小马宝莉》系列合集">
+    <meta property="twitter:description" content="《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。">
+    <meta property="twitter:image" content="./img.jpg">
+    <meta property="twitter:url" content="https://MyLittlePony2025.github.io">
+    <meta property="twitter:creator" content="@动画资源分享团队">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <title>《小马宝莉》系列合集</title>
+    <meta name="description" content="《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。">
+    <meta name="keywords" content="小马宝莉, 动画片, 友谊, 冒险, 动画合集">
+    <meta name="author" content="动画资源分享团队">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="zh-CN">
+    <meta name="rating" content="general">
+    <meta property="og:title" content="《小马宝莉》系列合集" />
+    <meta property="og:description" content="《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。" />
+    <meta property="og:url" content="https://MyLittlePony2025.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./img.jpg" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="动画资源分享站" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+    <style>
+        :root {
+            --primary-color: #ff5722;
+            --secondary-color: #ffe0b2;
+            --accent-color: #e64a19;
+            --text-color: #4e342e;
+            --background-color: rgba(0, 0, 0, 0.7); /* 默认背景蒙版颜色 */
+        }
+        body {
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        .hero-section {
+            background: linear-gradient(var(--background-color), var(--background-color)), url('./img.jpg');
+            background-position: center center;
+            background-size: cover;
+            color: white;
+            padding: 120px 0;
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        .testimonial-card {
+            border-left: 4px solid var(--primary-color);
+            background-color: white;
+        }
+        .download-section {
+            background-color: var(--secondary-color);
+        }
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .btn-primary:hover {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+        .btn-outline-light:hover {
+            color: var(--primary-color);
+        }
+        .anime-card {
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            height: 100%;
+            border: none;
+            padding: 10px;
+            font-size: 0.9rem; /* 调整字体大小 */
+            color: var(--text-color); /* 统一颜色 */
+        }
+        .anime-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .anime-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .anime-card h5 {
+            font-size: 1rem; /* 调整标题字体大小 */
+            color: var(--primary-color); /* 统一标题颜色 */
+            margin-bottom: 0;
+            font-weight: normal; /* 移除加粗效果 */
+        }
+        .category-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            margin-right: 8px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            border: 1px solid var(--primary-color);
+        }
+        .feature-box {
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .review-box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .review-box:before {
+            content: '\f10d';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            font-size: 24px;
+            color: var(--primary-color);
+            background-color: white;
+            padding: 0 10px;
+        }
+        .app-screenshot {
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+		 }
+        #resource-container {
+            max-height: 70vh; /* 限制高度 */
+            overflow-y: auto; /* 添加垂直滚动条 */
+            overflow-x: hidden; /* 禁止横向滚动条 */
+        }
+        .row.g-4 {
+            margin-right: 0; /* 确保卡片布局不超出容器宽度 */
+            margin-left: 0;
+        }
+        .col-md-4 {
+            padding-right: 0.5rem; /* 调整卡片间距 */
+            padding-left: 0.5rem;
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "name": "《小马宝莉》系列合集",
+        "description": "《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。",
+        "image": "./img.jpg",
+        "genre": ["动画", "冒险", "友谊"],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "1500"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "动画资源分享团队"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "《小马宝莉》系列合集",
+        "description": "《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。",
+        "url": "https://MyLittlePony2025.github.io",
+        "image": "./img.jpg",
+        "publisher": {
+            "@type": "Organization",
+            "name": "动画资源分享团队",
+            "logo": "./favicon.ico"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://MyLittlePony2025.github.io/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#">《小马宝莉》系列合集</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">动画片简介</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">动画片亮点</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#functions">观众评价</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resources">更多资源</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">《小马宝莉》系列合集</h1>
+            <p class="lead mb-5">一部讲述友谊与冒险的经典动画片合集，深受观众喜爱。</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#about" class="btn btn-light btn-lg px-4 py-2">了解更多</a>
+                <a href="#features" class="btn btn-outline-light btn-lg px-4 py-2">前往下载</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="./img.jpg" alt="米小圈上学记封面" class="img-fluid app-screenshot">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">《小马宝莉》系列合集介绍</h2>
+                    <p class="lead">《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事。</p>
+                    <p class="mb-4">动画片通过精彩的故事情节和生动的角色形象，传递了友谊的力量，是观众们的心灵伴侣。</p>
+                    
+                    <div class="mb-4">
+                        <h5 class="fw-bold mb-3">热门动画分类</h5>
+                        <span class="category-badge">校园</span>
+                        <span class="category-badge">成长</span>
+                        <span class="category-badge">友情</span>
+                        <span class="category-badge">幽默</span>
+                    </div>
+                    
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-check-circle text-primary me-2"></i>
+                        <span>充满童趣的故事情节</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-check-circle text-primary me-2"></i>
+                        <span>适合儿童观看，寓教于乐</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-check-circle text-primary me-2"></i>
+                        <span>高清画质，视觉享受</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-check-circle text-primary me-2"></i>
+                        <span>传递正能量，陪伴成长</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">动画片特色</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="text-center mb-3">
+                            <i class="fas fa-play-circle feature-icon"></i>
+                            <h4 class="fw-bold">高清画质</h4>
+                        </div>
+                        <p>动画片采用高清画质，色彩鲜艳，画面细腻，给孩子们带来视觉享受。</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="text-center mb-3">
+                            <i class="fas fa-film feature-icon"></i>
+                            <h4 class="fw-bold">友谊的力量</h4>
+                        </div>
+                        <p>动画片通过角色之间的互动，展现了友谊的力量和重要性。</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <div class="text-center mb-3">
+                            <i class="fas fa-sync-alt feature-icon"></i>
+                            <h4 class="fw-bold">冒险与成长</h4>
+                        </div>
+                        <p>故事情节充满冒险与成长，激励观众勇敢面对生活中的挑战。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="functions" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">观众评价</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="review-box">
+                        <p class="mb-3">"动画片充满正能量，角色形象生动，故事情节精彩，非常值得观看！"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="mb-0 ms-2 text-muted">— 家长</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-box">
+                        <p class="mb-3">"高清画质，视觉享受。孩子们看得很开心，故事情节也很有教育意义。"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="mb-0 ms-2 text-muted">— 动画片爱好者</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-box">
+                        <p class="mb-3">"孩子们的成长好伙伴，陪伴他们快乐成长。动画片传递了很多正能量，非常棒！"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p class="mb-0 ms-2 text-muted">— 家庭观众</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download-section py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">立即下载</h2>
+            <div class="d-inline-block">
+                <a href="https://pan.quark.cn/s/04c552dfa857" class="btn btn-primary btn-lg px-4 mb-3">
+                    <i class="fas fa-download me-2"></i>立即下载
+                </a>
+                <br>
+                <a href="https://www.kuake98.com/" class="btn btn-outline-primary btn-lg px-4">
+                    <i class="fas fa-folder-open me-2"></i>更多资源
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">更多资源分享</h2>
+            <div id="resource-container">
+                <!-- 动态生成的资源分类和卡片将插入到这里 -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="small mb-2">本站所有内容资源均来源于网络，仅供用户交流学习与研究使用，版权归属原版权方所有</p>
+            <p class="small">本站仅提供软件介绍下载及使用方法说明，我们尊重知识产权，呼吁大家共同维护良好的网络环境，合法使用软件。</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 动态设置主题色
+        document.addEventListener("DOMContentLoaded", () => {
+            const themeColor = getComputedStyle(document.documentElement).getPropertyValue('--primary-color');
+            const img = new Image();
+            img.src = './img.jpg';
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                ctx.drawImage(img, 0, 0, img.width, img.height);
+                const imageData = ctx.getImageData(0, 0, img.width, img.height).data;
+
+                let r = 0, g = 0, b = 0, count = 0;
+                for (let i = 0; i < imageData.length; i += 4) {
+                    r += imageData[i];
+                    g += imageData[i + 1];
+                    b += imageData[i + 2];
+                    count++;
+                }
+                r = Math.floor(r / count);
+                g = Math.floor(g / count);
+                b = Math.floor(b / count);
+
+                const themeBackgroundColor = `rgba(${r}, ${g}, ${b}, 0.7)`;
+                document.documentElement.style.setProperty('--background-color', themeBackgroundColor);
+            };
+        });
+
+        // 动态生成更多资源分享模块
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch('./resources.json')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('resource-container');
+                    const groupedResources = {};
+
+                    // 按 classify 字段分组
+                    data.forEach(resource => {
+                        if (!groupedResources[resource.classify]) {
+                            groupedResources[resource.classify] = [];
+                        }
+                        groupedResources[resource.classify].push(resource);
+                    });
+
+                    // 创建分类和资源卡片
+                    for (const [classify, resources] of Object.entries(groupedResources)) {
+                        const section = document.createElement('div');
+                        section.className = 'mb-5';
+
+                        const title = document.createElement('h3');
+                        title.className = 'fw-bold mb-3';
+                        title.textContent = classify;
+                        section.appendChild(title);
+
+                        const divider = document.createElement('hr');
+                        divider.className = 'mb-4';
+                        section.appendChild(divider);
+
+                        const row = document.createElement('div');
+                        row.className = 'row g-4';
+
+                        resources.forEach(resource => {
+                            const col = document.createElement('div');
+                            col.className = 'col-md-4';
+                            col.innerHTML = `
+                                <a href="${resource.downloadURL}" target="_blank" class="text-decoration-none">
+                                    <div class="anime-card bg-white shadow-sm">
+                                        <h5>${resource.name}</h5>
+                                    </div>
+                                </a>
+                            `;
+                            row.appendChild(col);
+                        });
+
+                        section.appendChild(row);
+                        container.appendChild(section);
+                    }
+                })
+                .catch(error => console.error('资源加载失败:', error));
+        });
+    </script>
+</body>
+</html>
