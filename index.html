@@ -1,491 +1,710 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3Qh1OAyzK3CUqior",ck:"3Qh1OAyzK3CUqior"})</script>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="theme-color" content="#ff5722">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="《小马宝莉》系列合集">
-    <meta name="application-name" content="《小马宝莉》系列合集">
-    <meta name="msapplication-TileColor" content="#ff5722">
-    <meta name="msapplication-TileImage" content="./favicon.ico">
-    <meta name="msapplication-config" content="./browserconfig.xml">
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="《小马宝莉》系列合集">
-    <meta property="twitter:description" content="《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。">
-    <meta property="twitter:image" content="./img.jpg">
-    <meta property="twitter:url" content="https://MyLittlePony2025.github.io">
-    <meta property="twitter:creator" content="@动画资源分享团队">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <title>《小马宝莉》系列合集</title>
-    <meta name="description" content="《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。">
-    <meta name="keywords" content="小马宝莉, 动画片, 友谊, 冒险, 动画合集">
-    <meta name="author" content="动画资源分享团队">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="zh-CN">
-    <meta name="rating" content="general">
-    <meta property="og:title" content="《小马宝莉》系列合集" />
-    <meta property="og:description" content="《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。" />
-    <meta property="og:url" content="https://MyLittlePony2025.github.io" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="./img.jpg" />
-    <meta property="og:locale" content="zh_CN" />
-    <meta property="og:site_name" content="动画资源分享站" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="夸克网盘资源搜索引擎 - 夸克98，提供快速、精准的网盘资源搜索服务，轻松找到您需要的资源。">
+  <meta name="keywords" content="夸克网盘, 资源搜索, 网盘资源, 夸克98, 网盘搜索引擎, 资源下载">
+  <meta name="author" content="夸克98">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4caf50">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="夸克网盘资源搜索引擎 - 夸克98">
+  <meta name="twitter:description" content="夸克网盘资源搜索引擎 - 夸克98，提供快速、精准的网盘资源搜索服务，轻松找到您需要的资源。">
+  <meta name="twitter:image" content="https://www.kuake98.com/logo.png">
+  <meta property="og:title" content="夸克网盘资源搜索引擎 - 夸克98">
+  <meta property="og:description" content="夸克网盘资源搜索引擎 - 夸克98，提供快速、精准的网盘资源搜索服务，轻松找到您需要的资源。">
+  <meta property="og:url" content="https://www.kuake98.com">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.kuake98.com/logo.png">
+  <title>夸克网盘资源搜索引擎 - 夸克98</title>
+  <meta name="google-site-verification" content="QJztLn55ZjD75EJiM5-v-cIwN1AbdgEL0-apsp6df-4" />
+  <style>
+    /* 自定义样式 */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
 
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-	<link rel="shortcut icon" href="favicon.ico">
-    <style>
-        :root {
-            --primary-color: #ff5722;
-            --secondary-color: #ffe0b2;
-            --accent-color: #e64a19;
-            --text-color: #4e342e;
-            --background-color: rgba(0, 0, 0, 0.7); /* 默认背景蒙版颜色 */
-        }
-        body {
-            color: var(--text-color);
-            background-color: var(--background-color);
-        }
-        .hero-section {
-            background: linear-gradient(var(--background-color), var(--background-color)), url('./img.jpg');
-            background-position: center center;
-            background-size: cover;
-            color: white;
-            padding: 120px 0;
-        }
-        .feature-icon {
-            font-size: 2.5rem;
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-        }
-        .testimonial-card {
-            border-left: 4px solid var(--primary-color);
-            background-color: white;
-        }
-        .download-section {
-            background-color: var(--secondary-color);
-        }
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-        }
-        .btn-primary:hover {
-            background-color: var(--accent-color);
-            border-color: var(--accent-color);
-        }
-        .btn-outline-light:hover {
-            color: var(--primary-color);
-        }
-        .anime-card {
-            border-radius: 10px;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            height: 100%;
-            border: none;
-            padding: 10px;
-            font-size: 0.9rem; /* 调整字体大小 */
-            color: var(--text-color); /* 统一颜色 */
-        }
-        .anime-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-        }
-        .anime-card img {
-            height: 200px;
-            object-fit: cover;
-        }
-        .anime-card h5 {
-            font-size: 1rem; /* 调整标题字体大小 */
-            color: var(--primary-color); /* 统一标题颜色 */
-            margin-bottom: 0;
-            font-weight: normal; /* 移除加粗效果 */
-        }
-        .category-badge {
-            display: inline-block;
-            padding: 5px 15px;
-            border-radius: 20px;
-            background-color: var(--secondary-color);
-            color: var(--primary-color);
-            margin-right: 8px;
-            margin-bottom: 8px;
-            font-size: 14px;
-            border: 1px solid var(--primary-color);
-        }
-        .feature-box {
-            border-radius: 10px;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            height: 100%;
-            transition: all 0.3s ease;
-        }
-        .feature-box:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
-        .review-box {
-            background-color: white;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            margin-bottom: 20px;
-            position: relative;
-        }
-        .review-box:before {
-            content: '\f10d';
-            font-family: 'Font Awesome 6 Free';
-            font-weight: 900;
-            position: absolute;
-            top: -10px;
-            left: 20px;
-            font-size: 24px;
-            color: var(--primary-color);
-            background-color: white;
-            padding: 0 10px;
-        }
-        .app-screenshot {
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-		 }
-        #resource-container {
-            max-height: 70vh; /* 限制高度 */
-            overflow-y: auto; /* 添加垂直滚动条 */
-            overflow-x: hidden; /* 禁止横向滚动条 */
-        }
-        .row.g-4 {
-            margin-right: 0; /* 确保卡片布局不超出容器宽度 */
-            margin-left: 0;
-        }
-        .col-md-4 {
-            padding-right: 0.5rem; /* 调整卡片间距 */
-            padding-left: 0.5rem;
-        }
-    </style>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Movie",
-        "name": "《小马宝莉》系列合集",
-        "description": "《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。",
-        "image": "./img.jpg",
-        "genre": ["动画", "冒险", "友谊"],
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "1500"
-        },
-        "author": {
-            "@type": "Organization",
-            "name": "动画资源分享团队"
-        }
+    header {
+      background-color: #4caf50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "《小马宝莉》系列合集",
-        "description": "《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事，深受观众喜爱。",
-        "url": "https://MyLittlePony2025.github.io",
-        "image": "./img.jpg",
-        "publisher": {
-            "@type": "Organization",
-            "name": "动画资源分享团队",
-            "logo": "./favicon.ico"
-        },
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://MyLittlePony2025.github.io/?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: bold;
     }
-    </script>
+
+    .container {
+      max-width: 1020px;
+      margin: 0 auto;
+      padding: 20px;
+      width: 80vw;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 75vh;
+      padding: 24px 8px 0 8px;
+    }
+
+    .search-container {
+      width: 100%;
+      box-sizing: border-box;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 12px;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      margin-bottom: 24px;
+    }
+
+    .logo-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 28px;
+      animation: fadeInDown 1s;
+      justify-content: center;
+    }
+
+    .logo-title a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .logo-title img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 4px;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+      background: #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      margin-right: 12px;
+    }
+
+
+
+    .search-box {
+      width: 50%;
+      max-width: 500px;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-box {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 28px;
+      border-radius: 50px;
+      padding: 2px;
+      background: linear-gradient(-12deg, #dc5b24, #35b169);
+      box-shadow: 0 4px 20px rgba(111, 85, 255, 0.25);
+      animation: fadeIn 1.2s;
+    }
+
+    .search-container .search-box {
+      margin: 20px auto;
+    }
+
+    .search-box-inner {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      background-color: #fff;
+      border-radius: 48px;
+      padding: 4px;
+    }
+
+    .search-box input {
+      flex: 1;
+      padding: 12px 20px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 48px;
+      outline: none;
+      background: transparent;
+      color: #000000;
+    }
+
+    .search-btn {
+      padding: 10px 10px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.2s, transform 0.2s;
+      gap: 6px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      white-space: nowrap;
+      margin: 0 10px;
+    }
+
+    .search-btn:hover {
+      transform: scale(1.05);
+    }
+
+    .pan-btn {
+      color: #8b5cf6;
+    }
+
+    .separator {
+      color: #d1d5db;
+      margin: 0 4px;
+    }
+
+    .search-buttons {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-button {
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      background-color: #4caf50;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .results-main-container {
+      position: relative;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 12px;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .source-filters {
+      padding-bottom: 15px;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .filters {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background-color: #ffffff;
+      border: 1px solid #8977ff;
+      border-radius: 20px;
+      padding: 6px 12px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+      text-decoration: none;
+      color: #8975ff;
+    }
+
+    .filter-btn.active {
+      background-color: #6f55ff45;
+      color: #6f55ff;
+      border-color: #6f55ff;
+    }
+
+    .filter-btn img {
+      width: 68px;
+      height: 20px;
+    }
+
+    .filter-btn:hover {
+      background-color: #e0e0e0;
+      border-color: #ccc;
+    }
+
+    .search-button:hover {
+      background-color: #45a049;
+    }
+
+    .category-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #fff;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      gap: 10px;
+    }
+
+
+    .resource-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+      flex: 1;
+    }
+
+    .resource-card {
+      width: 100%;
+      height: 60px;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      overflow: hidden;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+    }
+
+    .resource-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .resource-card h3 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #333;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      flex: 1;
+      /* 限制为1行 */
+    }
+
+
+    .resource-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 0.2rem 0.2rem;
+      font-size: 1rem;
+      color: white;
+      background-color: #6f55ff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.2s ease;
+      /* flex: 1; */
+      width: 4rem;
+    }
+
+    .resource-card a:hover {
+      background-color: #5844cc;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: auto;
+    }
+  </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold text-primary" href="#">《小马宝莉》系列合集</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">动画片简介</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">动画片亮点</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#functions">观众评价</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resources">更多资源</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <div class="container" style="padding-top: 70px;">
 
-    <header class="hero-section text-center">
-        <div class="container">
-            <h1 class="display-4 fw-bold mb-4">《小马宝莉》系列合集</h1>
-            <p class="lead mb-5">一部讲述友谊与冒险的经典动画片合集，深受观众喜爱。</p>
-            <div class="d-flex justify-content-center gap-3">
-                <a href="#about" class="btn btn-light btn-lg px-4 py-2">了解更多</a>
-                <a href="#features" class="btn btn-outline-light btn-lg px-4 py-2">前往下载</a>
-            </div>
-        </div>
-    </header>
+    <section class="search-container">
+      <div class="logo-title">
+        <a href="/" style="text-decoration: none; color: inherit;">
+          <img src="./logo.png" alt="logo">
+          <h1><span>夸克98</span></h1>
+        </a>
+      </div>
 
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="./img.jpg" alt="米小圈上学记封面" class="img-fluid app-screenshot">
-                </div>
-                <div class="col-lg-6">
-                    <h2 class="fw-bold mb-4">《小马宝莉》系列合集介绍</h2>
-                    <p class="lead">《《小马宝莉》系列合集》是一部经典动画片合集，讲述了友谊与冒险的故事。</p>
-                    <p class="mb-4">动画片通过精彩的故事情节和生动的角色形象，传递了友谊的力量，是观众们的心灵伴侣。</p>
-                    
-                    <div class="mb-4">
-                        <h5 class="fw-bold mb-3">热门动画分类</h5>
-                        <span class="category-badge">校园</span>
-                        <span class="category-badge">成长</span>
-                        <span class="category-badge">友情</span>
-                        <span class="category-badge">幽默</span>
-                    </div>
-                    
-                    <div class="d-flex align-items-center mb-3">
-                        <i class="fas fa-check-circle text-primary me-2"></i>
-                        <span>充满童趣的故事情节</span>
-                    </div>
-                    <div class="d-flex align-items-center mb-3">
-                        <i class="fas fa-check-circle text-primary me-2"></i>
-                        <span>适合儿童观看，寓教于乐</span>
-                    </div>
-                    <div class="d-flex align-items-center mb-3">
-                        <i class="fas fa-check-circle text-primary me-2"></i>
-                        <span>高清画质，视觉享受</span>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <i class="fas fa-check-circle text-primary me-2"></i>
-                        <span>传递正能量，陪伴成长</span>
-                    </div>
-                </div>
-            </div>
+      <div class="search-box">
+        <div class="search-box-inner">
+          <input type="text" id="searchInput" name="keyword" placeholder="输入搜索关键词…" aria-label="搜索关键词" value=""
+            style="width: 100%;">
+          <div class="search-buttons">
+            <!-- <button  type="submit" id="searchButton" class="search-btn doc-btn">搜文档</button> -->
+            <span class="separator">|</span>
+            <button type="submit" id="searchButton" class="search-btn pan-btn">搜网盘</button>
+          </div>
         </div>
+      </div>
+
     </section>
 
-    <section id="features" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center fw-bold mb-5">动画片特色</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="text-center mb-3">
-                            <i class="fas fa-play-circle feature-icon"></i>
-                            <h4 class="fw-bold">高清画质</h4>
-                        </div>
-                        <p>动画片采用高清画质，色彩鲜艳，画面细腻，给孩子们带来视觉享受。</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="text-center mb-3">
-                            <i class="fas fa-film feature-icon"></i>
-                            <h4 class="fw-bold">友谊的力量</h4>
-                        </div>
-                        <p>动画片通过角色之间的互动，展现了友谊的力量和重要性。</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box">
-                        <div class="text-center mb-3">
-                            <i class="fas fa-sync-alt feature-icon"></i>
-                            <h4 class="fw-bold">冒险与成长</h4>
-                        </div>
-                        <p>故事情节充满冒险与成长，激励观众勇敢面对生活中的挑战。</p>
-                    </div>
-                </div>
-            </div>
+    <div class="results-main-container">
+      <div class="source-filters">
+        <!-- <div class="filters-title-wrapper">
+          <div class="filters-title">来源</div>
+        </div> -->
+        <div class="filters" id="categoryContainer">
         </div>
-    </section>
+      </div>
 
-    <section id="functions" class="py-5">
-        <div class="container">
-            <h2 class="text-center fw-bold mb-5">观众评价</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="review-box">
-                        <p class="mb-3">"动画片充满正能量，角色形象生动，故事情节精彩，非常值得观看！"</p>
-                        <div class="d-flex align-items-center">
-                            <div class="text-warning">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                            <p class="mb-0 ms-2 text-muted">— 家长</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="review-box">
-                        <p class="mb-3">"高清画质，视觉享受。孩子们看得很开心，故事情节也很有教育意义。"</p>
-                        <div class="d-flex align-items-center">
-                            <div class="text-warning">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                            <p class="mb-0 ms-2 text-muted">— 动画片爱好者</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="review-box">
-                        <p class="mb-3">"孩子们的成长好伙伴，陪伴他们快乐成长。动画片传递了很多正能量，非常棒！"</p>
-                        <div class="d-flex align-items-center">
-                            <div class="text-warning">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                            <p class="mb-0 ms-2 text-muted">— 家庭观众</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <section class="resource-container" id="resourceContainer">
+        <!-- 直接生成前 30 条数据的 HTML 元素 -->
+        <div class="resource-card">
+          <h3 title="下载神器IDM（含破解版、中文绿色特别版）">下载神器IDM（含破解版、中文绿色特别版）</h3>
+          <a href="https://pan.quark.cn/s/d318fae46a6c" target="_blank">前往</a>
         </div>
-    </section>
-
-    <section id="download" class="download-section py-5">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-4">立即下载</h2>
-            <div class="d-inline-block">
-                <a href="https://pan.quark.cn/s/758a0ddd18a2" class="btn btn-primary btn-lg px-4 mb-3">
-                    <i class="fas fa-download me-2"></i>立即下载
-                </a>
-                <br>
-                <a href="https://www.kuake98.com/" class="btn btn-outline-primary btn-lg px-4">
-                    <i class="fas fa-folder-open me-2"></i>更多资源
-                </a>
-            </div>
+        <div class="resource-card">
+          <h3 title="MagnetW 3.1.1">MagnetW 3.1.1</h3>
+          <a href="https://pan.quark.cn/s/de7b3efa435e" target="_blank">前往</a>
         </div>
-    </section>
-
-    <section id="resources" class="py-5">
-        <div class="container">
-            <h2 class="text-center fw-bold mb-5">更多资源分享</h2>
-            <div id="resource-container">
-                <!-- 动态生成的资源分类和卡片将插入到这里 -->
-            </div>
+        <div class="resource-card">
+          <h3 title="迅雷最新破解vip版">迅雷最新破解vip版</h3>
+          <a href="https://pan.quark.cn/s/bc587d94dd4b" target="_blank">前往</a>
         </div>
-    </section>
-
-    <footer class="bg-dark text-white py-4">
-        <div class="container text-center">
-            <p class="small mb-2">本站所有内容资源均来源于网络，仅供用户交流学习与研究使用，版权归属原版权方所有</p>
-            <p class="small">本站仅提供软件介绍下载及使用方法说明，我们尊重知识产权，呼吁大家共同维护良好的网络环境，合法使用软件。</p>
+        <div class="resource-card">
+          <h3 title="超强磁力下载Plus 1.3.4会员版、去广告版">超强磁力下载Plus 1.3.4会员版、去广告版</h3>
+          <a href="https://pan.quark.cn/s/a045238a2d09" target="_blank">前往</a>
         </div>
-    </footer>
+        <div class="resource-card">
+          <h3 title="悟空下载会员解锁版 支持磁力链、迅雷链接、Ed2k 电驴">悟空下载会员解锁版 支持磁力链、迅雷链接、Ed2k 电驴</h3>
+          <a href="https://pan.quark.cn/s/e69555bb9055" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="安卓必备，找磁力v1.0.7，磁力种子搜索软件免费(会员解锁版)">安卓必备，找磁力v1.0.7，磁力种子搜索软件免费(会员解锁版)</h3>
+          <a href="https://pan.quark.cn/s/256d17484f0e" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="磁力云App破解版、解锁版">磁力云App破解版、解锁版</h3>
+          <a href="https://pan.quark.cn/s/bf28c82b7aa3" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="P2P下载器磁力下载_会员解锁版">P2P下载器磁力下载_会员解锁版</h3>
+          <a href="https://pan.quark.cn/s/bf28c82b7aa3" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="网盘搜索器（会员解锁版、破解版）">网盘搜索器（会员解锁版、破解版）</h3>
+          <a href="https://pan.quark.cn/s/bf28c82b7aa3" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="酷我音乐SVIP（手机端、pc端）都有完美破解版支持导出，提供高品质音乐下载、无广告干扰、全曲播放。专为音乐爱好者打造，免费下载并畅享SVIP特权。">酷我音乐SVIP完美破解版(支持导出)（手机端、pc端） - 免费畅享SVIP特权</h3>
+          <a href="https://pan.quark.cn/s/54ef43a6a773" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="体验迅雷vip破解版永久会员2025版，绿色免安装版，支持无视敏感资源，畅享极速下载体验。">迅雷vip破解版永久会员2025版 - 绿色免安装版，支持无视敏感资源</h3>
+          <a href="https://pan.quark.cn/s/05fa94fe49e4" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="阿里云盘小白羊版是一个基于阿里云盘的第三方客户端，支持列出文件/重命名/移动/回收站/收藏夹等基本功能，还支持扫码登录/Cookie登录等操作!华军软件园为您提供阿里云盘小白羊版下载，快来体验吧!">阿里云盘小白羊v3.23.62819 - 高效云盘管理工具</h3>
+          <a href="https://pan.quark.cn/s/5787a9dacdd7" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="哔哩猫最新下载分享给大家！这是一款全新的哔哩哔哩番剧播放软件，为你带来独特的优质播放资源，所有资源内容全都免费看，带给更多绝佳的影视番剧，动漫资源观看体验！">哔哩猫最新版下载-哔哩猫app下载(bilimiao)</h3>
+          <a href="https://pan.quark.cn/s/9bc95c8c9aef" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="酷9TV直播最新版本-功能强大-高清直播工具">酷9TV直播最新版本-功能强大-高清直播工具</h3>
+          <a href="https://pan.quark.cn/s/f22728fd2522" target="_blank">前往</a>
+        </div>
+        <div class="resource-card">
+          <h3 title="皮皮喵漫画软件是很多朋友都在使用的漫画阅读神器，这里有海量漫画资源，覆盖国漫、日漫、韩漫等等。你还可以根据漫画的类型进行更为快速的筛选，找到自己想看的漫画，欢迎下载使用。">皮皮喵漫画 V0.8.3纯净版</h3>
+          <a href="https://pan.quark.cn/s/48eea89d4017" target="_blank">前往</a>
+        </div>
+        <!-- 继续添加剩余的前 30 条数据 -->
+      </section>
+    </div>
+  </div>
 
-    <!-- Bootstrap 5 JS Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // 动态设置主题色
-        document.addEventListener("DOMContentLoaded", () => {
-            const themeColor = getComputedStyle(document.documentElement).getPropertyValue('--primary-color');
-            const img = new Image();
-            img.src = './img.jpg';
-            img.onload = () => {
-                const canvas = document.createElement('canvas');
-                const ctx = canvas.getContext('2d');
-                canvas.width = img.width;
-                canvas.height = img.height;
-                ctx.drawImage(img, 0, 0, img.width, img.height);
-                const imageData = ctx.getImageData(0, 0, img.width, img.height).data;
+  <footer>
+    <p>&copy; 2025 夸克98 | <a href="https://www.kuake98.com" target="_blank"
+        style="color: white; text-decoration: none;">www.kuake98.com</a></p>
+    <p>
+      本站资源收集于网络，仅供学习和交流使用，本站一切资源不代表本站立场，如有不妥请联系本站处理！
+    </p>
+  </footer>
 
-                let r = 0, g = 0, b = 0, count = 0;
-                for (let i = 0; i < imageData.length; i += 4) {
-                    r += imageData[i];
-                    g += imageData[i + 1];
-                    b += imageData[i + 2];
-                    count++;
-                }
-                r = Math.floor(r / count);
-                g = Math.floor(g / count);
-                b = Math.floor(b / count);
 
-                const themeBackgroundColor = `rgba(${r}, ${g}, ${b}, 0.7)`;
-                document.documentElement.style.setProperty('--background-color', themeBackgroundColor);
-            };
-        });
 
-        // 动态生成更多资源分享模块
-        document.addEventListener("DOMContentLoaded", () => {
-            fetch('./resources.json')
-                .then(response => response.json())
-                .then(data => {
-                    const container = document.getElementById('resource-container');
-                    const groupedResources = {};
+  <script>
+    const DB_NAME = 'resourceDB';
+    const STORE_NAME = 'resources';
+    let db;
+    let currentPage = 0;
+    const itemsPerPage = 50;
 
-                    // 按 classify 字段分组
-                    data.forEach(resource => {
-                        if (!groupedResources[resource.classify]) {
-                            groupedResources[resource.classify] = [];
-                        }
-                        groupedResources[resource.classify].push(resource);
-                    });
+    // 初始化 IndexedDB
+    const openDB = () => {
+      const request = indexedDB.open(DB_NAME, 1);
+      request.onupgradeneeded = function (event) {
+        const db = event.target.result;
 
-                    // 创建分类和资源卡片
-                    for (const [classify, resources] of Object.entries(groupedResources)) {
-                        const section = document.createElement('div');
-                        section.className = 'mb-5';
+        // 创建资源存储
+        if (!db.objectStoreNames.contains(STORE_NAME)) {
+          db.createObjectStore(STORE_NAME, { keyPath: 'downloadURL' }); // 修改 keyPath 为 "downloadURL"
+        }
+      };
+      request.onsuccess = function (event) {
+        db = event.target.result;
+        checkVersionUpdates();
+      };
+      request.onerror = function (event) {
+        console.error('打开数据库失败', event);
+      };
+    };
 
-                        const title = document.createElement('h3');
-                        title.className = 'fw-bold mb-3';
-                        title.textContent = classify;
-                        section.appendChild(title);
+    // 检查版本更新
+    const checkVersionUpdates = () => {
+      fetch('./resourcesVersion.json')
+        .then(response => response.json())
+        .then(remoteVersions => {
+          const localVersions = JSON.parse(localStorage.getItem('resourceVersions')) || [];
+          const updates = remoteVersions.filter(remoteVersion => {
+            const localVersion = localVersions.find(v => v.name === remoteVersion.name);
+            return !localVersion || localVersion.version !== remoteVersion.version;
+          });
 
-                        const divider = document.createElement('hr');
-                        divider.className = 'mb-4';
-                        section.appendChild(divider);
+          if (updates.length > 0) {
+            updateResources(updates, remoteVersions);
+          } else {
+            lazyLoadResources();
+          }
+        })
+        .catch(err => console.error('版本检查失败', err));
+    };
 
-                        const row = document.createElement('div');
-                        row.className = 'row g-4';
+    // 更新资源
+    const updateResources = (updates, remoteVersions) => {
+      const promises = updates.map(update => {
+        return fetch(`./${update.name}.json`)
+          .then(response => response.json())
+          .then(data => {
+            const tx = db.transaction(STORE_NAME, 'readwrite');
+            const resourceStore = tx.objectStore(STORE_NAME);
 
-                        resources.forEach(resource => {
-                            const col = document.createElement('div');
-                            col.className = 'col-md-4';
-                            col.innerHTML = `
-                                <a href="${resource.downloadURL}" target="_blank" class="text-decoration-none">
-                                    <div class="anime-card bg-white shadow-sm">
-                                        <h5>${resource.name}</h5>
-                                    </div>
-                                </a>
-                            `;
-                            row.appendChild(col);
-                        });
+            // 更新资源数据
+            data.forEach(item => {
+              if (item.downloadURL) {
+                resourceStore.put(item);
+              } else {
+                console.warn('资源缺少 downloadURL 属性，已跳过：', item);
+              }
+            });
+          });
+      });
 
-                        section.appendChild(row);
-                        container.appendChild(section);
-                    }
-                })
-                .catch(error => console.error('资源加载失败:', error));
-        });
-    </script>
+      Promise.all(promises)
+        .then(() => {
+          console.log('资源更新完成');
+          // 更新 localStorage 中的版本信息
+          localStorage.setItem('resourceVersions', JSON.stringify(remoteVersions));
+          lazyLoadResources();
+        })
+        .catch(err => console.error('资源更新失败', err));
+    };
+
+    // 懒加载资源
+    const lazyLoadResources = () => {
+      const tx = db.transaction(STORE_NAME, 'readonly');
+      const store = tx.objectStore(STORE_NAME);
+      const request = store.getAll();
+      request.onsuccess = function (event) {
+        const resources = event.target.result;
+
+        // 如果数据库为空，尝试重新加载资源文件
+        if (resources.length === 0) {
+          console.warn('数据库中没有数据，尝试重新加载资源文件。');
+          reloadResources();
+          return;
+        }
+
+        const start = currentPage * itemsPerPage;
+        const end = start + itemsPerPage;
+
+        // 检查是否还有更多内容
+        if (start >= resources.length) {
+          if (currentPage === 0) {
+            console.warn('首次加载没有内容，请检查资源文件是否正确加载。');
+          } else {
+            console.log('没有更多内容可加载');
+          }
+          return;
+        }
+
+        const paginatedResources = resources.slice(start, end);
+        appendResources(paginatedResources); // 使用 appendResources 而不是清空内容
+        currentPage++;
+      };
+      request.onerror = function (event) {
+        console.error('加载资源失败', event);
+      };
+    };
+
+    // 重新加载资源文件
+    const reloadResources = () => {
+      fetch('./resourcesVersion.json')
+        .then(response => response.json())
+        .then(remoteVersions => {
+          const promises = remoteVersions.map(version => {
+            return fetch(`./${version.name}.json`)
+              .then(response => response.json())
+              .then(data => {
+                const tx = db.transaction(STORE_NAME, 'readwrite');
+                const resourceStore = tx.objectStore(STORE_NAME);
+                data.forEach(item => resourceStore.put(item));
+              });
+          });
+
+          Promise.all(promises)
+            .then(() => {
+              console.log('资源重新加载完成');
+              currentPage = 0; // 重置分页
+              lazyLoadResources(); // 确保重新加载后展示内容
+            })
+            .catch(err => console.error('资源重新加载失败', err));
+        })
+        .catch(err => console.error('资源版本文件加载失败', err));
+    };
+
+    // 追加资源到页面
+    const appendResources = (resources) => {
+      const container = document.getElementById('resourceContainer');
+      resources.forEach(resource => {
+        const card = document.createElement('div');
+        card.className = 'resource-card';
+        card.innerHTML = `
+          <h3>${resource.name}</h3>
+          <a href="${resource.downloadURL}" target="_blank">前往</a>
+        `;
+        container.appendChild(card);
+      });
+    };
+
+    // 显示资源
+    const displayResources = (resources) => {
+      const container = document.getElementById('resourceContainer');
+      container.innerHTML = ''; // 清空现有资源
+      resources.forEach(resource => {
+        const card = document.createElement('div');
+        card.className = 'resource-card';
+        card.innerHTML = `
+          <h3 title=${resource.name} >${resource.name}</h3>
+          <a href="${resource.downloadURL}" target="_blank">前往</a>
+        `;
+        container.appendChild(card);
+      });
+    };
+
+    // 搜索资源
+    document.getElementById('searchButton').addEventListener('click', () => {
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const tx = db.transaction(STORE_NAME, 'readonly');
+      const store = tx.objectStore(STORE_NAME);
+      const request = store.getAll();
+      request.onsuccess = function (event) {
+        const resources = event.target.result;
+        const filteredResources = resources.filter(resource =>
+          (resource.name && resource.name.toLowerCase().includes(query)) ||
+          (resource.description && resource.description.toLowerCase().includes(query))
+        );
+        document.getElementById('resourceContainer').innerHTML = ''; // 清空现有资源
+        displayResources(filteredResources);
+      };
+    });
+
+    // 分类筛选功能
+    document.getElementById('categoryContainer').addEventListener('click', (event) => {
+      if (event.target.classList.contains('filter-btn')) {
+        const buttons = document.querySelectorAll('.filter-btn');
+        buttons.forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+        
+        // event.target.classList.toggle('active');
+        const category = event.target.getAttribute('data-category');
+        const tx = db.transaction(STORE_NAME, 'readonly');
+        const store = tx.objectStore(STORE_NAME);
+        const request = store.getAll();
+        request.onsuccess = function (event) {
+          const resources = event.target.result;
+          const filteredResources = category
+            ? resources.filter(resource => resource.classify === category)
+            : resources;
+          document.getElementById('resourceContainer').innerHTML = ''; // 清空现有资源
+          displayResources(filteredResources);
+        };
+      }
+    });
+
+    // 监听滚动事件实现懒加载
+    window.addEventListener('scroll', () => {
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 50) {
+        // 距离底部50px时加载更多内容
+        lazyLoadResources();
+      }
+    });
+
+    // 动态生成分类模块
+    const generateCategories = () => {
+      fetch('./classify.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('categoryContainer');
+          container.innerHTML = ''; // 清空现有分类
+          const allCategory = document.createElement('a');
+          allCategory.className = 'filter-btn';
+          allCategory.setAttribute('data-category', '');
+          allCategory.textContent = '全部分类';
+          container.appendChild(allCategory);
+
+          data.forEach(category => {
+            const categoryItem = document.createElement('a');
+            categoryItem.className = 'filter-btn';
+            categoryItem.setAttribute('data-category', category.name);
+            categoryItem.textContent = category.name;
+            container.appendChild(categoryItem);
+          });
+        })
+        .catch(err => console.error('加载分类失败', err));
+    };
+
+    // 初始化
+    openDB();
+    generateCategories(); // 调用动态生成分类函数
+  </script>
 </body>
+
 </html>
