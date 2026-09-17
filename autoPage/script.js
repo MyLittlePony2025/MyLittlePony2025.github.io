@@ -4,7 +4,7 @@
    .then((data) => {
      createResource(data);
      //加载线上资源
-     fetch("https://www.api.kuake98.com/resourceList")
+     fetch(`${window.SITE_CONFIG.apiBaseUrl}/resourceList`)
        .then((response) => response.json())
        .then((onlineData) => {
          console.log(onlineData, "onlineData");
@@ -78,7 +78,7 @@
        downloadBtns.appendChild(a);
      });
      const a = document.createElement("a");
-     a.href = "https://www.kuake98.com/";
+     a.href = window.SITE_CONFIG.siteUrl + '/';
      a.className = "download-btn";
      a.setAttribute("aria-label", "查看更多资源");
      a.textContent = "更多资源";
@@ -143,6 +143,6 @@ function renderAd(selector, adInfo) {
 document.addEventListener('DOMContentLoaded', () => {
   
   // 假设这里是请求接口
-  fetch('https://www.api.kuake98.com/ad').then(res => res.json()).then(data => initAds(data));
+  fetch(`${window.SITE_CONFIG.apiBaseUrl}/ad`).then(res => res.json()).then(data => initAds(data));
   
 });

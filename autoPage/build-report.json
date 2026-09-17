@@ -1,0 +1,150 @@
+{
+  "total": 1212,
+  "skipped": [
+    {
+      "id": "2d4f3eec6d28",
+      "title": "威力导演  v14.5.3高级版.apk",
+      "reason": "缺少标题或描述"
+    },
+    {
+      "id": "446e96873a87",
+      "title": "照片编辑器  v10.9高级版.apk",
+      "reason": "缺少标题或描述"
+    },
+    {
+      "id": "1835d335a201",
+      "title": "文本扫描仪  v1.5.4高级版.apk",
+      "reason": "缺少标题或描述"
+    },
+    {
+      "id": "ea1bc17b3675",
+      "title": "AI Chat Ver.4.0.0.0  会员解锁版 .apk",
+      "reason": "缺少标题或描述"
+    },
+    {
+      "id": "f437f1587669",
+      "title": "B站录播工具) v1.6.0 绿色版.7z",
+      "reason": "缺少标题或描述"
+    },
+    {
+      "id": "c6f1868e3aa8",
+      "title": "万题库 5.6.8.0会员版.apk",
+      "reason": "缺少标题或描述"
+    },
+    {
+      "id": "4c59c9c5407f",
+      "title": "Photo  影楼v2.7.11.3468专业版.apk",
+      "reason": "缺少标题或描述"
+    },
+    {
+      "id": "1e0de1c22b54",
+      "title": "精灵扫描+  v7.22.1付费版.apk",
+      "reason": "缺少标题或描述"
+    }
+  ],
+  "duplicates": [
+    {
+      "slug": "light-image-resizer",
+      "previousId": "7f620786eeea",
+      "retainedId": "eb3a5b956df6"
+    },
+    {
+      "slug": "word-office",
+      "previousId": "00c665fad230",
+      "retainedId": "6e4575b54be4"
+    },
+    {
+      "slug": "universe-toolkit",
+      "previousId": "fd00105a56bf",
+      "retainedId": "6c76147fd0b5"
+    },
+    {
+      "slug": "mx-player",
+      "previousId": "f38396894355",
+      "retainedId": "78b4c37842ed"
+    },
+    {
+      "slug": "media-date-fixer",
+      "previousId": "57859851475a",
+      "retainedId": "ff78a769dca0"
+    },
+    {
+      "slug": "ticktick",
+      "previousId": "5fb4f52577c0",
+      "retainedId": "a8eb12f16d7c"
+    },
+    {
+      "slug": "plant-identifier",
+      "previousId": "9bd35145a4c3",
+      "retainedId": "1d623b785c1b"
+    },
+    {
+      "slug": "bilibili",
+      "previousId": "a3e241bf8622",
+      "retainedId": "7393595fa519"
+    },
+    {
+      "slug": "jutu-video",
+      "previousId": "c9baabe56adb",
+      "retainedId": "8be09e112589"
+    },
+    {
+      "slug": "scientific-calculator",
+      "previousId": "bed4e159243e",
+      "retainedId": "d9e31d020b15"
+    },
+    {
+      "slug": "kuaishou-video-editor",
+      "previousId": "8850b7831637",
+      "retainedId": "1d870fdb062b"
+    },
+    {
+      "slug": "photodirector",
+      "previousId": "a5bb946d489b",
+      "retainedId": "9fefb5a32cc5"
+    },
+    {
+      "slug": "weili-calendar",
+      "previousId": "f385d20aef71",
+      "retainedId": "ed676a6535a9"
+    },
+    {
+      "slug": "es-file-explorer-v4-4-2-17-premium",
+      "previousId": "53b1d9b2a122",
+      "retainedId": "6abfc4f5d302"
+    },
+    {
+      "slug": "mix-filter-master-v4-9-67-premium",
+      "previousId": "8bef4f9f855a",
+      "retainedId": "3560c3540a9b"
+    },
+    {
+      "slug": "aosoft-cutout-v1-8-2-premium",
+      "previousId": "52035623e0f3",
+      "retainedId": "43ced5e311f3"
+    },
+    {
+      "slug": "tangdou-square-dance-v8-4-1-premium",
+      "previousId": "cbe886ab5544",
+      "retainedId": "fcc684b3f133"
+    },
+    {
+      "slug": "speed-download-v1-1-0-premium",
+      "previousId": "fda81c9bb8a8",
+      "retainedId": "2dcc9455b259"
+    },
+    {
+      "slug": "bear-movies-v30-1-2-clean",
+      "previousId": "f943a3533e6e",
+      "retainedId": "91a9560019d8"
+    },
+    {
+      "slug": "juxiafan-v1-1-0-ad-free",
+      "previousId": "03ef263b8008",
+      "retainedId": "6b600bab5811"
+    }
+  ],
+  "missingLinks": [],
+  "generatedDetails": 1184,
+  "directoryPages": 20
+}
